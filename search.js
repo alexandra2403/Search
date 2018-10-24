@@ -4,7 +4,7 @@ let findInFiles = require('find-in-files');
 
 let myArgs = process.argv.slice(2);	
 		
-let EXT = '.' + myArgs[0] + '$';						
+let EXT =  myArgs[0];						
 let TEXT = myArgs[1];						
 
 if (myArgs[0]== undefined) {
